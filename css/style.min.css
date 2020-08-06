@@ -223,6 +223,8 @@ body {
 }
 
 .rocket {
+  display: flex;
+	align-items: center;
   position: relative;
   font-family: Roboto,sans-serif;
   color: #fff;
@@ -235,6 +237,9 @@ body {
   margin-bottom: 45px;
 }
 
+.rocket__info-table {
+  margin-right: 160px;
+}
 .rocket__info-table tr:last-child td {
   padding-bottom: 0;
 }
@@ -248,10 +253,6 @@ body {
 
 .rocket .rocket__image {
   max-width: 300px;
-  max-height: 1720px;
-  position: absolute;
-  right: 50px;
-  top: 0;
   z-index: 100;
 }
 
