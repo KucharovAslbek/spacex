@@ -247,7 +247,7 @@ body {
 }
 
 .rocket .rocket__image {
-  max-width: 645px;
+  max-width: 300px;
   max-height: 1720px;
   position: absolute;
   right: 50px;
