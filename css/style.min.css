@@ -329,7 +329,7 @@ body {
   color: grey;
   margin-bottom: 30px;
 }
-.contact .email {
+.contact .contact__email {
   color: grey;
 }
 .contact-btn {
