@@ -428,6 +428,7 @@ body {
   .main .rocket__column-title {
     display: inline-block;
     margin-right: 0;
+    font-size: 15px;
     padding-right: 40px;
     padding-bottom: 0;
   }
