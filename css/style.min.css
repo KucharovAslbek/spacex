@@ -329,6 +329,8 @@ body {
   color: grey;
   margin-bottom: 30px;
 }
+.contact .email {
+  color: grey;
 
 .contact-btn {
   padding: 20px 85px;
