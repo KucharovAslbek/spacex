@@ -1,1 +1,12 @@
-var instance=new vidbg(".video",{mp4:"video/world.mp4",webm:"video/world.webm",poster:"video/poster.jpg",overlay:!1}),rellax=new Rellax(".rocket__image");
+var instance = new vidbg('.video', {
+    mp4: 'video/world.mp4', // URL or relative path to MP4 video
+    webm: 'video/world.webm', // URL or relative path to webm video
+    poster: 'video/poster.jpg', // URL or relative path to fallback image
+    overlay: true // Boolean to display the overlay or not
+});
+
+var rellax = new Rellax('.rocket__image');
+
+if(document.body.clientWidth < 576){
+    rellax.destroy();
+}
